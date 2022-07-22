@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'open sans', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+#contianer{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* hero section */
+
+.hero{
+    background: #0A2640;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+a,
+button,
+li{
+    text-decoration: none;
+    font-weight: 500;
+}
+header{
+    display: flex;
+    padding: 20px 7.5%;
+}
+.contianer header{
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #fff !important;
+}
+li{
+    list-style: none;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 0 20px;
+} 
+.logo{
+    margin-right: auto;
+}
+a.btn-1{
+    padding: 10px 30px;
+    border-radius: 25px 25px;
+    font-weight: 600;
+    background-color: #fff;
+}
+.jumbos,
+footer{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;  
+    margin: 0 auto;
+}
+.jumbos{
+    height: 500px;
+}
+.words{
+    width: 60%;
+    padding: 110px 20px 30px;
+    
+}
+.text h1{
+    font-size: 3rem;
+}
+.jumbotron{
+    font-size: .8rem;
+    margin-bottom: 40px;
+}
+a[class="btn-2"]{
+    padding: 15px 30px;
+    background-color: rgb(20, 255, 0);
+    border-radius:25px 25px;
+    font-size: 1.4rem;
+    margin-right: 15px;
+}
+a[class="btn-3"]{
+    padding:15px 25px;
+    background-color: rgb(155, 186, 152);
+    border-radius:25px 25px;
+    font-size: 1.4rem;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    left: 10px;
+    
+}
